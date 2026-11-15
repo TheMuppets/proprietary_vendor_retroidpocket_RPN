@@ -72,3 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroidpocket/RPN/proprietary/vendor/firmware/adsp_dtb.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp_dtb.mdt \
     vendor/retroidpocket/RPN/proprietary/vendor/firmware/aw883xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw883xx_acf.bin \
     vendor/retroidpocket/RPN/proprietary/vendor/firmware/mcuapp_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcuapp_firmware.bin
+
+PRODUCT_COPY_FILES += \
+    vendor/retroidpocket/RPN/proprietary/vendor/firmware/mcuapp_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mcuapp_firmware.txt
